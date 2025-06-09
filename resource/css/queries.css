@@ -504,5 +504,11 @@
         font-size: 2.5em;
         padding: 10px;
     }
+    .hero-header{
+        font-size: 40px !important;
+        li a{
+            font-size: 40px !important;
+        }
+    }
 }
 
