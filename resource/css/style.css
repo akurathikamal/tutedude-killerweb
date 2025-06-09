@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    /* background-color: forestgreen; */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding:0;
+    margin: 0;
+    height: 80px;
+}
+/* navbar */
+nav {
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: forestgreen;
+    color: white;
+    position:sticky;
+    top: 0;
+}
+
+nav h1 {
+    font-size: 1.5em;
+    padding-left: 2em;
+}
+
+nav img {
+    width: 1.5em;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.navbar-components {
+    display: flex;
+}
+
+.navbar-components li {
+    margin: 1em 1.5em;
+    list-style: none;
+    padding-top: 0.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0.1em;
+}
+
+.navbar-components li a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* hero section */
+.hero-text-box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(22, 49, 16, 0.8)), url(https://wallpapercave.com/wp/wp8329822.jpg);
+    height: 91vh;
+    background-size: cover;
+    margin-top: 0;
+    padding-top: 0;
+    background-attachment: fixed;
+    
+}
+
+.hero-text {
+    margin-top: 0;
+    color: white;
+    display: flex;
+    top: 30%;
+    position: absolute;
+    left: 10%;
+    flex-direction: column;
+}
+
+.hero-text h1 {
+    font-size: 7em;
+    text-transform: uppercase;
+}
+
+.hero-text ul {
+    display: flex;
+
+}
+
+.hero-text li {
+    padding: 1.5em;
+    list-style-type: none;
+    border: 2px solid forestgreen;
+    margin: 0.7em;
+    border-radius: 20%;
+    width: 17em;
+    text-align: center;
+
+}
+
+.hero-text a {
+    font-size: 2em;
+    width: 1.5em;
+}
+
+.hero-text a,
+li {
+    transition: all 0.5s ease;
+}
+
+.hero-text li:first-child {
+    background-color: forestgreen;
+    border: 2px solid white;
+}
+
+.hero-text li:first-child:hover {
+    background-color: white;
+    border: 2px solid forestgreen;
+
+    a {
+        color: green;
+    }
+}
+
+.hero-text li:last-child:hover {
+    background-color: white;
+    border: 2px solid white;
+
+    a {
+        color: green;
+    }
+}
+
+/* services provided */
+.services {
+    background-color: rgb(212, 158, 87);
+    padding: 5em;
+}
+
+.services h2 {
+    font-size: 5em;
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+}
+
+.services>p {
+    font-size: 3em;
+    text-align: center;
+    padding: 1em;
+}
+
+.box-services {
+    display: flex;
+    gap: 2em;
+    font-size: 2.2em;
+    margin-top: 2em;
+}
+
+.box {
+    background-color: forestgreen;
+    padding: 1em;
+    border-radius: 1em;
+    transition: all 0.3s ease;
+}
+
+.icon {
+    font-size: 3em;
+    color: orange !important;
+}
+.box .icon,
+h3,
+p {
+    padding: 0.4em;
+
+}
+
+
+.box:hover {
+    box-shadow: 10px 15px rgba(70, 70, 65, 0.2);
+}
+
+.under-line:after {
+    margin: 0 auto;
+    content: " ";
+    width: 100px;
+    height: 2px;
+    background-color: forestgreen;
+    display: block;
+    margin-top: 20px;
+}
+
+.under-line {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* favouite meal session */
+.meal-photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meal-photo figure {
+    flex: 1 1 1 1 calc(25%);
+    max-width: 25%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.7;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+/* how it works */
+.section-work {
+    background-color: rgb(209, 177, 87);
+    padding: 40px;
+    height: 100vh;
+}
+
+.work-heading-img {
+    height: 75vh;
+}
+
+.work-heading {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding: 25px;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+.work-text-photo {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.store-img {
+    height: 80px;
+    width: 250px;
+    border-radius:10px;
+}
+
+.work-text-store {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.work-text li {
+    margin-bottom: 100px;
+}
+
+.work-text li:last-child {
+    margin-bottom: 10px;
+}
+
+/* location */
+.section-location {
+    padding: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.location-heading {
+    font-size: 3em;
+    padding-bottom: 50px;
+}
+
+.location-images {
+    height:150px;
+    width:250px;
+}
+
+.location-cities {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cityname {
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.feedback a {
+    color: black;
+}
+
+.feedback li {
+    padding: 10px;
+    list-style: none;
+    font-size: 1em;
+}
+
+.icon {
+    color: forestgreen;
+}
+
+.text-location {
+    font-size: 20px;
+    position: relative;
+    bottom: 7px;
+    padding-left: 5px;
+}
+
+/* premium */
+.premium {
+    background-color: rgb(209, 177, 87);
+    padding: 30px;
+}
+
+.premium-heading {
+    font-size: 50px;
+}
+
+.premium-prices {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 25px;
+    gap: 20px;
+}
+
+.premium-benifits p {
+    display: inline-block;
+}
+
+.box-color {
+    background-color: white;
+    border-bottom: 3px solid rgb(209, 177, 87);
+    width: 360px;
+}
+
+.premium-price {
+    padding: 20px;
+    height: 250px;
+
+    h2 {
+        padding: 20px;
+    }
+}
+
+.premium-benifits {
+    padding: 30px;
+    height: 250px;
+
+    ion-icon {
+        color: rgb(209, 177, 87);
+    }
+}
+
+.sign-up {
+    padding: 20px;
+    text-align: center;
+}
+
+.sign-up button {
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.cost {
+    font-size: 70px;
+}
+
+.signup-active {
+    background-color: rgb(209, 177, 87);
+}
+
+.premium-color-diff {
+    color: rgb(209, 177, 87);
+}
+
+/* thoughts */
+.thoughts {
+    padding: 40px;
+
+}
+
+.thoughts-heading {
+    font-size: 50px;
+}
+
+.input {
+    width: 250px;
+    height: 35px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.thoughts-form {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.thoughts-form {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 30px;
+}
+
+.input-textarea {
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+
+    input {
+        width: 100px;
+        height: 50px;
+        background-color: forestgreen;
+        color: white;
+        border-radius: 10px;
+    }
+}
+.form {
+    padding: 50px;
+}
+footer{
+    background-color: forestgreen;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.tags{
+    display: flex;
+    p{
+        padding: 8px 16px;
+    }
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color: rgb(29, 153, 202);
+}
+.google{
+    color: rgb(193, 132, 19);
+ 
+}
+.instagram{
+    color: rgb(231, 34, 66);
+}
