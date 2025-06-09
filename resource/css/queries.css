@@ -497,5 +497,8 @@
         bottom: 10px;
         height: 40px;
     }
+    .section-work{
+        height: 70vh;
+    }
 }
 
