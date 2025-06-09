@@ -500,5 +500,9 @@
     .section-work{
         height: 60vh;
     }
+    .hero-text h1{
+        font-size: 2.5em;
+        padding: 10px;
+    }
 }
 
