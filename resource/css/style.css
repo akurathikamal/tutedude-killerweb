@@ -280,33 +280,30 @@ p {
 
 /* location */
 .section-location {
-    padding: 4px 0 6px 0;
-    /* background-color: rgb(173, 180, 41); */
+    padding: 20px;
+    padding-bottom: 30px;
 }
 
 .location-heading {
-    font-size: 2em;
-    padding-bottom: 4px;
-    margin: 0;
+    font-size: 3em;
+    padding-bottom: 30px;
 }
 
 .location-images {
-    height: 60px;
-    width: 120px;
+    height:180px;
+    width:300px;
     box-sizing: border-box;
 }
 
 .location-cities {
     display: flex;
     justify-content: space-evenly;
-    gap: 2px;
 }
 
 .cityname {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 1px 0;
-    margin: 0;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
 }
 
 .feedback a {
@@ -314,10 +311,9 @@ p {
 }
 
 .feedback li {
-    padding: 1px 0;
+    padding: 10px;
     list-style: none;
-    font-size: 0.9em;
-    margin: 0;
+    font-size: 1em;
 }
 
 .icon {
@@ -325,12 +321,11 @@ p {
 }
 
 .text-location {
-    font-size: 12px;
+    font-size: 20px;
     position: relative;
-    bottom: 1px;
-    padding-left: 1px;
+    bottom: 7px;
+    padding-left: 5px;
 }
-
 /* premium */
 .premium {
     background-color: rgb(209, 177, 87);
