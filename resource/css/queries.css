@@ -510,14 +510,9 @@
             font-size: 40px !important;
         }
     }
-    .services{
-        padding: 1em;
-        h2{
-            font-size: 30px;
-        }
-        >p{
+    .services>p{
             font-size: 25px;
         }
-    }
+    
 }
 
