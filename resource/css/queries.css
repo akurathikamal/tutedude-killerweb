@@ -514,8 +514,8 @@
             font-size: 25px;
         }
     .location-images{
-        width: 400px;
-        height: 200px;
+        width: 300px !important;
+        height: 200px !important;
     }
 }
 
