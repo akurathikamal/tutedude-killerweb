@@ -517,5 +517,21 @@
         width: 300px !important;
         height: 200px !important;
     }
+     .navbar-toggle {
+    display: block;
+  }
+  .navbar-components {
+    display: none;
+    flex-direction: column;
+    background: forestgreen;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  .navbar-components.active {
+    display: flex;
+  }
 }
 
