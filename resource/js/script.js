@@ -22,3 +22,16 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+$(document).ready(function(){
+  $('.navbar-toggle').on('click', function() {
+    $('.navbar-components').toggleClass('active');
+    // Toggle icon between hamburger and X
+    const icon = $(this).find('.menu-icon');
+    if ($('.navbar-components').hasClass('active')) {
+      icon.attr('name', 'close-outline');
+    } else {
+      icon.attr('name', 'menu-outline');
+    }
+  });
+});
